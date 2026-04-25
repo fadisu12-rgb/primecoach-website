@@ -38,18 +38,18 @@ export default function Hero({ locale, messages }) {
               {/* Stats row */}
               <div className="flex items-center gap-6 mt-10 pt-8 border-t border-white/5">
                 <div>
-                  <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">10K+</p>
-                  <p className="text-sm text-prime-text-muted">Active Users</p>
-                </div>
-                <div className="w-px h-10 bg-white/10" />
-                <div>
                   <div className="flex items-center gap-1">
-                    <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">4.8</p>
+                    <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">4.6</p>
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="#F97316" stroke="none">
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
                   </div>
-                  <p className="text-sm text-prime-text-muted">App Rating</p>
+                  <p className="text-sm text-prime-text-muted">Play Store Rating</p>
+                </div>
+                <div className="w-px h-10 bg-white/10" />
+                <div>
+                  <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">Free</p>
+                  <p className="text-sm text-prime-text-muted">To Get Started</p>
                 </div>
                 <div className="w-px h-10 bg-white/10" />
                 <div>

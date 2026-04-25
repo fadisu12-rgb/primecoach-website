@@ -29,10 +29,10 @@ export default function DownloadCTA({ locale, messages }) {
                   <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                 </svg>
               ))}
-              <span className="text-sm text-prime-text-muted ml-1">4.8/5</span>
+              <span className="text-sm text-prime-text-muted ml-1">4.6/5</span>
             </div>
             <div className="w-px h-5 bg-white/10" />
-            <span className="text-sm text-prime-text-muted">10K+ Downloads</span>
+            <span className="text-sm text-prime-text-muted">Health & Fitness</span>
             <div className="w-px h-5 bg-white/10 hidden sm:block" />
             <span className="text-sm text-prime-text-muted hidden sm:block">Free to Start</span>
           </div>

@@ -9,44 +9,64 @@
   },
   "hero": {
     "title": "Your AI-Powered Fitness Coach",
-    "subtitle": "Personalized meal plans, smart workout routines, and AI coaching — all in one app.",
-    "cta": "Download Now"
+    "subtitle": "Personalized workouts, smart meal plans, and an AI coach you can chat with to adjust your plan in plain language — like texting a trainer, not fighting menus."
   },
   "features": {
-    "title": "Everything You Need to Reach Your Goals",
+    "title": "Everything You Need in One App",
     "items": [
       {
         "title": "AI Coaching",
-        "description": "Get personalized guidance and plan adjustments from our intelligent AI coach."
+        "description": "Chat with your AI coach to adjust meals or training and get practical updates fast — like texting a real trainer."
       },
       {
-        "title": "Personalized Meals",
-        "description": "Custom nutrition plans tailored to your goals, preferences, and dietary needs."
+        "title": "Meal Planning & Macros",
+        "description": "Build meal plans that match your goals and lifestyle. Log and refine meals with smart macro tracking."
       },
       {
-        "title": "Smart Workouts",
-        "description": "Lifting and cardio programs designed specifically for your fitness level."
+        "title": "Workout & Training",
+        "description": "Structure your lifting, cardio, and weekly routine. Programs designed for your fitness level."
+      },
+      {
+        "title": "Food Scanner",
+        "description": "Snap your food for quicker logging and smarter nutrition choices throughout the day."
+      },
+      {
+        "title": "Exercise Library",
+        "description": "Explore a large library of exercises with clear guidance for home or gym sessions."
       },
       {
         "title": "Progress Tracking",
-        "description": "Track your meals, workouts, weight, and achievements all in one place."
-      },
-      {
-        "title": "Multi-Language",
-        "description": "Available in English, Arabic, and Hebrew — use the app in your preferred language."
-      },
-      {
-        "title": "Smart Adaptation",
-        "description": "Your plans evolve with you — the AI adapts as you progress toward your goals."
+        "description": "See trends in your workouts, meals, and weight so you stay accountable and motivated."
       }
     ]
+  },
+  "whoItsFor": {
+    "title": "Who It's For",
+    "items": [
+      {
+        "title": "Beginners",
+        "description": "Get a clear plan without guesswork."
+      },
+      {
+        "title": "Gym Goers",
+        "description": "Organized lifting and nutrition in one app."
+      },
+      {
+        "title": "Busy People",
+        "description": "Faster meal planning and simple adjustments."
+      }
+    ]
+  },
+  "whyPrimeCoach": {
+    "title": "Why Users Choose Prime Coach",
+    "description": "Stop switching between five apps for workouts, meals, and random AI tips. Prime Coach connects training and nutrition so your week feels coherent — and your coach understands what you actually want to change."
   },
   "screenshots": {
     "title": "See Prime Coach in Action"
   },
   "download": {
-    "title": "Start Your Fitness Journey Today",
-    "subtitle": "Download Prime Coach and get your personalized plan in minutes.",
+    "title": "Build a Plan You Can Stick To",
+    "subtitle": "Download Prime Coach and get your personalized plan in minutes — then refine it anytime with your AI coach.",
     "android": "Get it on Google Play",
     "ios": "Download on App Store",
     "comingSoon": "Coming Soon"
@@ -59,7 +79,7 @@
   },
   "footer": {
     "copyright": "Prime Coach. All rights reserved.",
-    "description": "AI-powered fitness coaching app with personalized meal plans and workout routines."
+    "description": "Your all-in-one fitness and nutrition app — personalized workouts, smart meal plans, and an AI coach that adapts to you."
   },
   "policy": {
     "lastUpdated": "Last updated: February 2025",

@@ -1,69 +1,89 @@
 {
   "nav": {
-    "home": "\u05d1\u05d9\u05ea",
-    "contact": "\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8",
-    "privacy": "\u05de\u05d3\u05d9\u05e0\u05d9\u05d5\u05ea \u05e4\u05e8\u05d8\u05d9\u05d5\u05ea",
-    "terms": "\u05ea\u05e0\u05d0\u05d9 \u05e9\u05d9\u05de\u05d5\u05e9",
-    "deleteAccount": "\u05de\u05d7\u05d9\u05e7\u05ea \u05d7\u05e9\u05d1\u05d5\u05df",
-    "download": "\u05d4\u05d5\u05e8\u05d3\u05d4"
+    "home": "בית",
+    "contact": "צור קשר",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שימוש",
+    "deleteAccount": "מחיקת חשבון",
+    "download": "הורדה"
   },
   "hero": {
-    "title": "\u05d4\u05de\u05d0\u05de\u05df \u05d4\u05d7\u05db\u05dd \u05e9\u05dc\u05da",
-    "subtitle": "\u05ea\u05e4\u05e8\u05d9\u05d8\u05d9 \u05ea\u05d6\u05d5\u05e0\u05d4 \u05de\u05d5\u05ea\u05d0\u05de\u05d9\u05dd \u05d0\u05d9\u05e9\u05d9\u05ea, \u05d0\u05d9\u05de\u05d5\u05e0\u05d9\u05dd \u05d7\u05db\u05de\u05d9\u05dd \u05d5\u05d0\u05d9\u05de\u05d5\u05df AI \u2014 \u05d4\u05db\u05dc \u05d1\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d0\u05d7\u05ea.",
-    "cta": "\u05d4\u05d5\u05e8\u05d3 \u05e2\u05db\u05e9\u05d9\u05d5"
+    "title": "המאמן החכם שלך",
+    "subtitle": "אימונים מותאמים אישית, תפריטי תזונה חכמים, ומאמן AI שאפשר לדבר איתו כדי לשנות את התוכנית בשפה טבעית — כמו לשלוח הודעה למאמן אמיתי."
   },
   "features": {
-    "title": "\u05db\u05dc \u05de\u05d4 \u05e9\u05e6\u05e8\u05d9\u05da \u05db\u05d3\u05d9 \u05dc\u05d4\u05d2\u05d9\u05e2 \u05dc\u05d9\u05e2\u05d3\u05d9\u05dd \u05e9\u05dc\u05da",
+    "title": "כל מה שצריך באפליקציה אחת",
     "items": [
       {
-        "title": "\u05d0\u05d9\u05de\u05d5\u05df \u05d7\u05db\u05dd",
-        "description": "\u05e7\u05d1\u05dc \u05d4\u05d3\u05e8\u05db\u05d4 \u05de\u05d5\u05ea\u05d0\u05de\u05ea \u05d0\u05d9\u05e9\u05d9\u05ea \u05d5\u05d4\u05ea\u05d0\u05de\u05d5\u05ea \u05dc\u05ea\u05d5\u05db\u05e0\u05d9\u05ea \u05de\u05d4\u05de\u05d0\u05de\u05df \u05d4\u05d7\u05db\u05dd \u05e9\u05dc\u05e0\u05d5."
+        "title": "אימון חכם",
+        "description": "דבר עם מאמן ה-AI שלך כדי לשנות ארוחות או אימונים וקבל עדכונים מהירים — כמו לשלוח הודעה למאמן אמיתי."
       },
       {
-        "title": "\u05ea\u05e4\u05e8\u05d9\u05d8\u05d9\u05dd \u05de\u05d5\u05ea\u05d0\u05de\u05d9\u05dd",
-        "description": "\u05ea\u05d5\u05db\u05e0\u05d9\u05d5\u05ea \u05ea\u05d6\u05d5\u05e0\u05d4 \u05de\u05d5\u05ea\u05d0\u05de\u05d5\u05ea \u05dc\u05d9\u05e2\u05d3\u05d9\u05dd, \u05dc\u05d4\u05e2\u05d3\u05e4\u05d5\u05ea \u05d5\u05dc\u05e6\u05e8\u05db\u05d9\u05dd \u05d4\u05ea\u05d6\u05d5\u05e0\u05ea\u05d9\u05d9\u05dd \u05e9\u05dc\u05da."
+        "title": "תכנון ארוחות ומאקרו",
+        "description": "בנה תוכניות ארוחות שמתאימות ליעדים ולאורח החיים שלך. תעד ושפר ארוחות עם מעקב מאקרו חכם."
       },
       {
-        "title": "\u05d0\u05d9\u05de\u05d5\u05e0\u05d9\u05dd \u05d7\u05db\u05de\u05d9\u05dd",
-        "description": "\u05ea\u05d5\u05db\u05e0\u05d9\u05d5\u05ea \u05db\u05d5\u05d7 \u05d5\u05e7\u05e8\u05d3\u05d9\u05d5 \u05e9\u05ea\u05d5\u05db\u05e0\u05e0\u05d5 \u05d1\u05de\u05d9\u05d5\u05d7\u05d3 \u05dc\u05e8\u05de\u05ea \u05d4\u05db\u05d5\u05e9\u05e8 \u05e9\u05dc\u05da."
+        "title": "אימונים ותכנון",
+        "description": "ארגן את אימוני הכוח, הקרדיו והשגרה השבועית שלך. תוכניות מותאמות לרמת הכושר שלך."
       },
       {
-        "title": "\u05de\u05e2\u05e7\u05d1 \u05d4\u05ea\u05e7\u05d3\u05de\u05d5\u05ea",
-        "description": "\u05e2\u05e7\u05d5\u05d1 \u05d0\u05d7\u05e8\u05d9 \u05d4\u05d0\u05e8\u05d5\u05d7\u05d5\u05ea, \u05d4\u05d0\u05d9\u05de\u05d5\u05e0\u05d9\u05dd, \u05d4\u05de\u05e9\u05e7\u05dc \u05d5\u05d4\u05d4\u05d9\u05e9\u05d2\u05d9\u05dd \u05e9\u05dc\u05da \u05d1\u05de\u05e7\u05d5\u05dd \u05d0\u05d7\u05d3."
+        "title": "סורק מזון",
+        "description": "צלם את האוכל שלך לתיעוד מהיר יותר ובחירות תזונה חכמות יותר לאורך היום."
       },
       {
-        "title": "\u05e8\u05d1-\u05dc\u05e9\u05d5\u05e0\u05d9",
-        "description": "\u05d6\u05de\u05d9\u05df \u05d1\u05e2\u05d1\u05e8\u05d9\u05ea, \u05e2\u05e8\u05d1\u05d9\u05ea \u05d5\u05d0\u05e0\u05d2\u05dc\u05d9\u05ea \u2014 \u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d1\u05e9\u05e4\u05d4 \u05e9\u05e0\u05d5\u05d7\u05d4 \u05dc\u05da."
+        "title": "ספריית תרגילים",
+        "description": "חקור ספרייה גדולה של תרגילי�� עם הנחיות ברורות לאימון בבית או בחדר כושר."
       },
       {
-        "title": "\u05d4\u05ea\u05d0\u05de\u05d4 \u05d7\u05db\u05de\u05d4",
-        "description": "\u05d4\u05ea\u05d5\u05db\u05e0\u05d9\u05d5\u05ea \u05e9\u05dc\u05da \u05de\u05ea\u05e4\u05ea\u05d7\u05d5\u05ea \u05d0\u05d9\u05ea\u05da \u2014 \u05d4-AI \u05de\u05ea\u05d0\u05d9\u05dd \u05d0\u05ea \u05e2\u05e6\u05de\u05d5 \u05e2\u05dd \u05d4\u05d4\u05ea\u05e7\u05d3\u05de\u05d5\u05ea \u05e9\u05dc\u05da."
+        "title": "מעקב התקדמות",
+        "description": "ראה מגמות באימונים, בארוחות ובמשקל שלך כדי להישאר מחויב ומוטיבציה."
       }
     ]
   },
+  "whoItsFor": {
+    "title": "למי זה מתאים",
+    "items": [
+      {
+        "title": "מתחילים",
+        "description": "קבל תוכנית ברורה בלי ניחושים."
+      },
+      {
+        "title": "מתאמנים",
+        "description": "אימונים ותזונה מאורגנים באפליקציה אחת."
+      },
+      {
+        "title": "אנשים עסוקים",
+        "description": "תכנון ארוחות מהיר יותר והתאמות פשוטות."
+      }
+    ]
+  },
+  "whyPrimeCoach": {
+    "title": "למה משתמשים בוחרים ב-Prime Coach",
+    "description": "תפסיק לקפוץ בין חמש אפליקציות לאימונים, ארוחות וטיפים אקראיים של AI. Prime Coach מחבר אימון ותזונה כדי שהשבוע שלך ירגיש מגובש — והמאמן שלך מבין מה אתה באמת רוצה לשנות."
+  },
   "screenshots": {
-    "title": "\u05e8\u05d0\u05d4 \u05d0\u05ea Prime Coach \u05d1\u05e4\u05e2\u05d5\u05dc\u05d4"
+    "title": "ראה את Prime Coach בפעולה"
   },
   "download": {
-    "title": "\u05d4\u05ea\u05d7\u05dc \u05d0\u05ea \u05d4\u05de\u05e1\u05e2 \u05e9\u05dc\u05da \u05d4\u05d9\u05d5\u05dd",
-    "subtitle": "\u05d4\u05d5\u05e8\u05d3 \u05d0\u05ea Prime Coach \u05d5\u05e7\u05d1\u05dc \u05ea\u05d5\u05db\u05e0\u05d9\u05ea \u05de\u05d5\u05ea\u05d0\u05de\u05ea \u05d0\u05d9\u05e9\u05d9\u05ea \u05ea\u05d5\u05da \u05d3\u05e7\u05d5\u05ea.",
-    "android": "\u05d4\u05d5\u05e8\u05d3 \u05de-Google Play",
-    "ios": "\u05d4\u05d5\u05e8\u05d3 \u05de-App Store",
-    "comingSoon": "\u05d1\u05e7\u05e8\u05d5\u05d1"
+    "title": "בנה תוכנית שתוכל להתחייב אליה",
+    "subtitle": "הורד את Prime Coach וקבל תוכנית מותאמת אישית תוך דקות — ואז שפר אותה בכל זמן עם מאמן ה-AI שלך.",
+    "android": "הורד מ-Google Play",
+    "ios": "הורד מ-App Store",
+    "comingSoon": "בקרוב"
   },
   "contact": {
-    "title": "\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8",
-    "subtitle": "\u05d9\u05e9 \u05dc\u05da \u05e9\u05d0\u05dc\u05d5\u05ea \u05d0\u05d5 \u05de\u05e9\u05d5\u05d1? \u05e0\u05e9\u05de\u05d7 \u05dc\u05e9\u05de\u05d5\u05e2 \u05de\u05de\u05da.",
-    "emailButton": "\u05e9\u05dc\u05d7 \u05dc\u05e0\u05d5 \u05d0\u05d9\u05de\u05d9\u05d9\u05dc",
-    "responseTime": "\u05d0\u05e0\u05d7\u05e0\u05d5 \u05d1\u05d3\u05e8\u05da \u05db\u05dc\u05dc \u05e2\u05d5\u05e0\u05d9\u05dd \u05ea\u05d5\u05da 24 \u05e9\u05e2\u05d5\u05ea."
+    "title": "צור קשר",
+    "subtitle": "יש לך שאלות או משוב? נשמח לשמוע ממך.",
+    "emailButton": "שלח לנו אימייל",
+    "responseTime": "אנחנו בדרך כלל עונים תוך 24 שעות."
   },
   "footer": {
-    "copyright": "Prime Coach. \u05db\u05dc \u05d4\u05d6\u05db\u05d5\u05d9\u05d5\u05ea \u05e9\u05de\u05d5\u05e8\u05d5\u05ea.",
-    "description": "\u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d9\u05ea \u05d0\u05d9\u05de\u05d5\u05df \u05db\u05d5\u05e9\u05e8 \u05de\u05d1\u05d5\u05e1\u05e1\u05ea AI \u05e2\u05dd \u05ea\u05d5\u05db\u05e0\u05d9\u05d5\u05ea \u05ea\u05d6\u05d5\u05e0\u05d4 \u05d5\u05d0\u05d9\u05de\u05d5\u05e0\u05d9\u05dd \u05de\u05d5\u05ea\u05d0\u05de\u05d9\u05dd \u05d0\u05d9\u05e9\u05d9\u05ea."
+    "copyright": "Prime Coach. כל הזכויות שמורות.",
+    "description": "האפליקציה השלמה שלך לכושר ותזונה — אימונים מותאמים, תוכניות ארוחות חכמות ומאמן AI שמתאים את עצמו אליך."
   },
   "policy": {
-    "lastUpdated": "\u05e2\u05d3\u05db\u05d5\u05df \u05d0\u05d7\u05e8\u05d5\u05df: \u05e4\u05d1\u05e8\u05d5\u05d0\u05e8 2025",
-    "onlyEnglish": "\u05de\u05e1\u05de\u05da \u05de\u05e9\u05e4\u05d8\u05d9 \u05d6\u05d4 \u05d6\u05de\u05d9\u05df \u05db\u05e8\u05d2\u05e2 \u05d1\u05d0\u05e0\u05d2\u05dc\u05d9\u05ea \u05d1\u05dc\u05d1\u05d3.",
-    "viewInEnglish": "\u05e6\u05e4\u05d4 \u05d1\u05d0\u05e0\u05d2\u05dc\u05d9\u05ea"
+    "lastUpdated": "עדכון אחרון: פברואר 2025",
+    "onlyEnglish": "מס��ך משפטי זה זמין כרגע באנגלית בלבד.",
+    "viewInEnglish": "צפה באנגלית"
   }
 }
