@@ -1,22 +1,25 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-prime-bg: #1d283a;
-  --color-prime-surface: #1f2d40;
-  --color-prime-surface-muted: #2a3a50;
-  --color-prime-accent: #4FC3F7;
-  --color-prime-accent-dark: #3ba0cf;
-  --color-prime-accent-glow: rgba(79, 195, 247, 0.15);
-  --color-prime-orange: #FFA726;
-  --color-prime-text: #E2E8F0;
-  --color-prime-text-muted: #9CA3AF;
-  --color-prime-text-subtle: #94a3b8;
-  --color-prime-border: rgba(79, 195, 247, 0.2);
-  --color-prime-border-strong: rgba(79, 195, 247, 0.3);
+  --color-prime-bg: #0F172A;
+  --color-prime-surface: #1E293B;
+  --color-prime-surface-muted: #334155;
+  --color-prime-accent: #F97316;
+  --color-prime-accent-dark: #EA580C;
+  --color-prime-accent-glow: rgba(249, 115, 22, 0.15);
+  --color-prime-green: #22C55E;
+  --color-prime-green-dark: #16A34A;
+  --color-prime-cyan: #4FC3F7;
+  --color-prime-text: #F1F5F9;
+  --color-prime-text-muted: #94A3B8;
+  --color-prime-text-subtle: #64748B;
+  --color-prime-border: rgba(249, 115, 22, 0.15);
+  --color-prime-border-strong: rgba(249, 115, 22, 0.3);
   --color-prime-error: #EF4444;
-  --color-prime-success: #10B981;
-  --color-prime-footer: #111827;
-  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --color-prime-success: #22C55E;
+  --color-prime-footer: #020617;
+  --font-sans: var(--font-barlow), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: var(--font-barlow-condensed), var(--font-barlow), -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 html {
@@ -24,22 +27,32 @@ html {
 }
 
 body {
-  background: #1d283a;
-  color: #E2E8F0;
+  background: #0F172A;
+  color: #F1F5F9;
   font-family: var(--font-sans);
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #1d283a;
+  background: #0F172A;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a3a50;
-  border-radius: 4px;
+  background: #334155;
+  border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a4a60;
+  background: #475569;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

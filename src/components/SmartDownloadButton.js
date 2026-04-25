@@ -19,7 +19,7 @@ export default function SmartDownloadButton({ messages, locale, className = '' }
         href={STORE_LINKS.googlePlay}
         target="_blank"
         rel="noopener noreferrer"
-        className={`inline-flex items-center gap-3 bg-prime-accent hover:bg-prime-accent-dark text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-prime-accent/25 ${className}`}
+        className={`inline-flex items-center gap-3 bg-prime-accent hover:bg-prime-accent-dark text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-prime-accent/25 cursor-pointer ${className}`}
       >
         <GooglePlayIcon />
         <span>{messages.download.android}</span>
@@ -33,7 +33,7 @@ export default function SmartDownloadButton({ messages, locale, className = '' }
         href={isAppStoreReady ? STORE_LINKS.appStore : undefined}
         target="_blank"
         rel="noopener noreferrer"
-        className={`inline-flex items-center gap-3 ${isAppStoreReady ? 'bg-white text-black hover:bg-gray-100' : 'bg-gray-600 text-gray-300 cursor-not-allowed'} font-semibold px-8 py-4 rounded-xl transition-all duration-300 ${isAppStoreReady ? 'hover:scale-105' : ''} ${className}`}
+        className={`inline-flex items-center gap-3 ${isAppStoreReady ? 'bg-white text-black hover:bg-gray-100' : 'bg-gray-600 text-gray-300 cursor-not-allowed'} font-semibold px-8 py-4 rounded-xl transition-all duration-200 ${isAppStoreReady ? 'cursor-pointer' : ''} ${className}`}
       >
         <AppleIcon />
         <span>{isAppStoreReady ? messages.download.ios : messages.download.comingSoon}</span>
@@ -48,7 +48,7 @@ export default function SmartDownloadButton({ messages, locale, className = '' }
         href={STORE_LINKS.googlePlay}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-3 bg-prime-accent hover:bg-prime-accent-dark text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-prime-accent/25"
+        className="inline-flex items-center gap-3 bg-prime-accent hover:bg-prime-accent-dark text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-prime-accent/25 cursor-pointer"
       >
         <GooglePlayIcon />
         <span>{messages.download.android}</span>
@@ -57,7 +57,7 @@ export default function SmartDownloadButton({ messages, locale, className = '' }
         href={isAppStoreReady ? STORE_LINKS.appStore : undefined}
         target="_blank"
         rel="noopener noreferrer"
-        className={`inline-flex items-center gap-3 ${isAppStoreReady ? 'bg-white text-black hover:bg-gray-100 hover:scale-105' : 'bg-gray-600 text-gray-300 cursor-not-allowed'} font-semibold px-8 py-4 rounded-xl transition-all duration-300`}
+        className={`inline-flex items-center gap-3 ${isAppStoreReady ? 'bg-white text-black hover:bg-gray-100 cursor-pointer' : 'bg-gray-600 text-gray-300 cursor-not-allowed'} font-semibold px-8 py-4 rounded-xl transition-all duration-200`}
       >
         <AppleIcon />
         <span>{isAppStoreReady ? messages.download.ios : `${messages.download.ios} (${messages.download.comingSoon})`}</span>

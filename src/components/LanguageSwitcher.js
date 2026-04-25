@@ -23,12 +23,12 @@ export default function LanguageSwitcher({ locale }) {
   }
 
   return (
-    <div className="flex items-center gap-1 bg-prime-surface rounded-lg p-1">
+    <div className="flex items-center gap-1 bg-prime-surface/80 rounded-xl p-1">
       {languages.map((lang) => (
         <Link
           key={lang.code}
           href={getLocalizedPath(lang.code)}
-          className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all duration-200 ${
+          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all duration-200 cursor-pointer ${
             locale === lang.code
               ? 'bg-prime-accent text-white shadow-sm'
               : 'text-prime-text-muted hover:text-white hover:bg-prime-surface-muted'
