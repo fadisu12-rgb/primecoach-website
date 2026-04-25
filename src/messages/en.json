@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "deleteAccount": "Delete Account",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Your AI-Powered Fitness Coach",
+    "subtitle": "Personalized meal plans, smart workout routines, and AI coaching — all in one app.",
+    "cta": "Download Now"
+  },
+  "features": {
+    "title": "Everything You Need to Reach Your Goals",
+    "items": [
+      {
+        "title": "AI Coaching",
+        "description": "Get personalized guidance and plan adjustments from our intelligent AI coach."
+      },
+      {
+        "title": "Personalized Meals",
+        "description": "Custom nutrition plans tailored to your goals, preferences, and dietary needs."
+      },
+      {
+        "title": "Smart Workouts",
+        "description": "Lifting and cardio programs designed specifically for your fitness level."
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Track your meals, workouts, weight, and achievements all in one place."
+      },
+      {
+        "title": "Multi-Language",
+        "description": "Available in English, Arabic, and Hebrew — use the app in your preferred language."
+      },
+      {
+        "title": "Smart Adaptation",
+        "description": "Your plans evolve with you — the AI adapts as you progress toward your goals."
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "See Prime Coach in Action"
+  },
+  "download": {
+    "title": "Start Your Fitness Journey Today",
+    "subtitle": "Download Prime Coach and get your personalized plan in minutes.",
+    "android": "Get it on Google Play",
+    "ios": "Download on App Store",
+    "comingSoon": "Coming Soon"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions or feedback? We'd love to hear from you.",
+    "emailButton": "Send us an Email",
+    "responseTime": "We typically respond within 24 hours."
+  },
+  "footer": {
+    "copyright": "Prime Coach. All rights reserved.",
+    "description": "AI-powered fitness coaching app with personalized meal plans and workout routines."
+  },
+  "policy": {
+    "lastUpdated": "Last updated: February 2025",
+    "onlyEnglish": "This legal document is currently available in English only.",
+    "viewInEnglish": "View in English"
+  }
+}
