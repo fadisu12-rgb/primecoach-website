@@ -13,17 +13,23 @@ const featureVisuals = [
     ),
     mockup: (
       <div className="space-y-3">
+        {/* Tab context */}
+        <div className="flex gap-1 mb-1">
+          <div className="px-2 py-1 text-[10px] font-medium bg-prime-accent/10 text-prime-accent rounded-md border border-prime-accent/20">Nutrition</div>
+          <div className="px-2 py-1 text-[10px] text-prime-text-subtle rounded-md">Lifting</div>
+          <div className="px-2 py-1 text-[10px] text-prime-text-subtle rounded-md">Cardio</div>
+        </div>
         <div className="flex items-start gap-2">
-          <div className="bg-prime-accent/20 rounded-xl px-3 py-2 text-xs text-prime-accent max-w-[70%]">Swap my lunch chicken for fish today</div>
+          <div className="bg-prime-accent/20 rounded-xl px-3 py-2 text-xs text-prime-accent max-w-[70%]">Swap my lunch chicken for fish</div>
         </div>
         <div className="flex items-start gap-2 justify-end">
           <div className="bg-prime-surface rounded-xl px-3 py-2 text-xs text-prime-text-muted max-w-[70%]">Done! Swapped to grilled salmon — same macros, +3g omega-3s.</div>
         </div>
         <div className="flex items-start gap-2">
-          <div className="bg-prime-accent/20 rounded-xl px-3 py-2 text-xs text-prime-accent max-w-[70%]">Also skip cardio tomorrow</div>
+          <div className="bg-prime-accent/20 rounded-xl px-3 py-2 text-xs text-prime-accent max-w-[70%]">Make dinner lighter, around 400 cal</div>
         </div>
         <div className="flex items-start gap-2 justify-end">
-          <div className="bg-prime-surface rounded-xl px-3 py-2 text-xs text-prime-text-muted max-w-[70%]">Removed Thursday cardio. Rest day added.</div>
+          <div className="bg-prime-surface rounded-xl px-3 py-2 text-xs text-prime-text-muted max-w-[70%]">Updated! Dinner is now grilled chicken salad — 410 cal.</div>
         </div>
       </div>
     ),

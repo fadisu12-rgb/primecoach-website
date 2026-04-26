@@ -61,19 +61,40 @@ export default function AIChatPreview({ messages }) {
           <AnimatedSection>
             <div className="bg-prime-bg border border-white/10 rounded-2xl overflow-hidden shadow-2xl shadow-prime-accent/5">
               {/* Chat header */}
-              <div className="flex items-center gap-3 px-5 py-4 border-b border-white/5 bg-prime-surface/50">
-                <div className="w-9 h-9 bg-gradient-to-br from-prime-accent to-prime-green rounded-xl flex items-center justify-center shadow-md">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-sm font-semibold text-white">{t.coachName}</p>
+              <div className="border-b border-white/5 bg-prime-surface/50">
+                <div className="flex items-center gap-3 px-5 py-4">
+                  <div className="w-9 h-9 bg-gradient-to-br from-prime-accent to-prime-green rounded-xl flex items-center justify-center shadow-md">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                      <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm font-semibold text-white">{t.coachName}</p>
+                    <p className="text-xs text-prime-text-subtle">{t.coachLabel}</p>
+                  </div>
                   <div className="flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 bg-prime-green rounded-full animate-pulse" />
                     <p className="text-xs text-prime-green">{t.status}</p>
                   </div>
                 </div>
+
+                {/* Section tabs */}
+                {t.chatTabs && (
+                  <div className="flex px-5 gap-1">
+                    {t.chatTabs.map((tab, i) => (
+                      <div
+                        key={i}
+                        className={`px-3 py-2 text-xs font-medium rounded-t-lg ${
+                          i === 0
+                            ? 'bg-prime-bg text-prime-accent border-t border-x border-prime-accent/20'
+                            : 'text-prime-text-subtle hover:text-prime-text-muted'
+                        }`}
+                      >
+                        {tab}
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
 
               {/* Chat messages */}

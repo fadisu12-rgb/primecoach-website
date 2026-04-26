@@ -65,8 +65,8 @@
     ]
   },
   "appComparison": {
-    "title": "One Message vs. Five Taps",
-    "subtitle": "Other apps make you dig through menus to make a simple change. Prime Coach just listens.",
+    "title": "One Message vs. Six Taps",
+    "subtitle": "Other apps make you dig through menus to make a simple change. With Prime Coach, open your day's nutrition chat and just say it.",
     "otherApps": {
       "label": "Other Fitness Apps",
       "task": "Replacing a meal",
@@ -85,7 +85,8 @@
       "task": "Same task",
       "userMessage": "Swap my lunch chicken for fish",
       "aiResponse": "Done! Swapped to grilled salmon — same protein, +3g omega-3s. Your macros are updated.",
-      "time": "~5 seconds, one message"
+      "time": "~5 seconds, one message",
+      "context": "Today's Nutrition Chat"
     }
   },
   "whyPrimeCoach": {
@@ -111,27 +112,29 @@
   },
   "aiChatPreview": {
     "title": "Talk to Your Coach",
-    "subtitle": "No menus to dig through. Just tell your AI coach what you want to change — in plain language.",
-    "coachName": "Prime Coach AI",
+    "subtitle": "Each day has its own chats — one for nutrition, one for lifting, one for cardio. Open the right chat and just say what you need.",
+    "coachName": "Nutrition Chat",
+    "coachLabel": "Today — Tuesday",
     "status": "Online",
     "inputPlaceholder": "Type a message...",
     "conversation": [
       { "text": "I don't feel like chicken today, can we swap it?", "isUser": true },
       { "text": "Done! I swapped your lunch to grilled salmon — same protein, better omega-3s. Want me to adjust dinner too?", "isUser": false },
-      { "text": "No, just skip my cardio tomorrow. I need a rest day.", "isUser": true },
-      { "text": "Got it. Thursday is now a rest day. Your weekly volume is still on track.", "isUser": false }
-    ]
+      { "text": "Yeah, make dinner lighter — something around 400 cal.", "isUser": true },
+      { "text": "Updated! Dinner is now grilled chicken salad — 410 cal, 38g protein. Your daily macros still line up.", "isUser": false }
+    ],
+    "chatTabs": ["Nutrition", "Lifting", "Cardio"]
   },
   "featureDeepDives": {
     "title": "See How It Actually Works",
     "items": [
       {
         "title": "AI That Understands You",
-        "description": "Most fitness apps give you a plan and leave you alone. Prime Coach lets you talk to your plan. Swap meals, skip workouts, change goals — just say it.",
+        "description": "Most fitness apps give you a plan and leave you alone. Prime Coach lets you talk to your plan. Each day has dedicated chats for nutrition, lifting, and cardio — open the right one and just say what you need.",
         "bullets": [
           "Natural language — no forms or dropdowns",
-          "Remembers your preferences over time",
-          "Adjusts nutrition when your training changes"
+          "Dedicated chats per day: nutrition, lifting, cardio",
+          "Remembers your preferences over time"
         ]
       },
       {

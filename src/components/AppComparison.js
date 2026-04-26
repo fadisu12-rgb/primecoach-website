@@ -159,6 +159,16 @@ export default function AppComparison({ messages }) {
                 </div>
               </div>
 
+              {/* Context label */}
+              {t.primeCoach.context && (
+                <div className="flex items-center gap-2 mb-4 px-3 py-2 bg-prime-accent/5 border border-prime-accent/10 rounded-lg">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  </svg>
+                  <span className="text-xs text-prime-accent font-medium">{t.primeCoach.context}</span>
+                </div>
+              )}
+
               {/* Chat interaction */}
               <div className="space-y-3">
                 <MessageBubble
