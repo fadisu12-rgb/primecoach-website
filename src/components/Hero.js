@@ -38,8 +38,8 @@ export default function Hero({ locale, messages }) {
               {/* Stats row */}
               <div className="flex items-center gap-6 mt-10 pt-8 border-t border-white/5">
                 <div>
-                  <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">{t.stats?.free || 'Free'}</p>
-                  <p className="text-sm text-prime-text-muted">{t.stats?.freeLabel || 'No Credit Card'}</p>
+                  <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">{t.stats?.free || '7 Days Free'}</p>
+                  <p className="text-sm text-prime-text-muted">{t.stats?.freeLabel || 'Trial · Premium plans available'}</p>
                 </div>
                 <div className="w-px h-10 bg-white/10" />
                 <div>

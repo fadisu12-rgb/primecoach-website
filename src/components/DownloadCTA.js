@@ -28,7 +28,7 @@ export default function DownloadCTA({ locale, messages }) {
                 <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                 <polyline points="22 4 12 14.01 9 11.01" />
               </svg>
-              <span className="text-sm text-prime-text-muted">{t.trust?.noCreditCard || 'No Credit Card Required'}</span>
+              <span className="text-sm text-prime-text-muted">{t.trust?.noCreditCard || '7-day free trial to start'}</span>
             </div>
             <div className="w-px h-5 bg-white/10" />
             <div className="flex items-center gap-1.5">

@@ -11,8 +11,8 @@
     "title": "Your AI-Powered Fitness Coach",
     "subtitle": "Personalized workouts, smart meal plans, and an AI coach you can chat with to adjust your plan in plain language — like texting a trainer, not fighting menus.",
     "stats": {
-      "free": "Free",
-      "freeLabel": "No Credit Card",
+      "free": "7 Days Free",
+      "freeLabel": "Trial · Premium plans available",
       "minutes": "min",
       "setupLabel": "To Get Your Plan",
       "languagesLabel": "Languages"
@@ -98,7 +98,7 @@
     "items": [
       {
         "title": "Download the App",
-        "description": "Free on Google Play. No credit card, no commitment — just tap and install."
+        "description": "On Google Play — start your 7-day free trial. After that, premium unlocks the full AI coach and advanced features (details in the app)."
       },
       {
         "title": "Tell Us About You",
@@ -161,8 +161,8 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "Is Prime Coach really free?",
-        "answer": "Yes — you can download and use Prime Coach for free. There's a premium option for extra features, but the core experience (AI coaching, meal plans, workouts) is available to everyone."
+        "question": "Is Prime Coach free?",
+        "answer": "You get 7 days free when you start so you can try the app. After the trial, a premium subscription unlocks the full experience, including unrestricted AI coaching and paid-only features. What's included at each step is shown in Google Play and in the app."
       },
       {
         "question": "Do I need gym equipment?",
@@ -197,7 +197,7 @@
     "ios": "Download on App Store",
     "comingSoon": "Coming Soon",
     "trust": {
-      "noCreditCard": "No Credit Card Required",
+      "noCreditCard": "7-day free trial to start",
       "quickSetup": "Personalized in Under 2 Minutes",
       "dataPrivacy": "Your Data Stays Private"
     }
