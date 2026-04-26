@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import HowItWorks from '@/components/HowItWorks';
 import Features from '@/components/Features';
 import AIChatPreview from '@/components/AIChatPreview';
+import AppComparison from '@/components/AppComparison';
 import FeatureDeepDives from '@/components/FeatureDeepDives';
 import WhoItsFor from '@/components/WhoItsFor';
 import Screenshots from '@/components/Screenshots';
@@ -23,6 +24,7 @@ export default function Home() {
         <HowItWorks messages={messages} />
         <Features messages={messages} />
         <AIChatPreview messages={messages} />
+        <AppComparison messages={messages} />
         <FeatureDeepDives messages={messages} />
         <WhoItsFor messages={messages} />
         <Screenshots messages={messages} />

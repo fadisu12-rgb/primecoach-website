@@ -64,6 +64,30 @@
       }
     ]
   },
+  "appComparison": {
+    "title": "One Message vs. Five Taps",
+    "subtitle": "Other apps make you dig through menus to make a simple change. Prime Coach just listens.",
+    "otherApps": {
+      "label": "Other Fitness Apps",
+      "task": "Replacing a meal",
+      "steps": [
+        "Open your meal plan",
+        "Find the meal and tap edit",
+        "Remove the current food",
+        "Search for new food",
+        "Select the right portion size",
+        "Confirm and save changes"
+      ],
+      "time": "~2 minutes of tapping"
+    },
+    "primeCoach": {
+      "label": "Prime Coach",
+      "task": "Same task",
+      "userMessage": "Swap my lunch chicken for fish",
+      "aiResponse": "Done! Swapped to grilled salmon — same protein, +3g omega-3s. Your macros are updated.",
+      "time": "~5 seconds, one message"
+    }
+  },
   "whyPrimeCoach": {
     "title": "Why Users Choose Prime Coach",
     "description": "Stop switching between five apps for workouts, meals, and random AI tips. Prime Coach connects training and nutrition so your week feels coherent — and your coach understands what you actually want to change."
