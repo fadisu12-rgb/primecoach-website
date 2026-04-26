@@ -22,19 +22,29 @@ export default function DownloadCTA({ locale, messages }) {
           </p>
 
           {/* Trust indicators */}
-          <div className="flex items-center justify-center gap-6 mb-10">
+          <div className="flex items-center justify-center gap-6 mb-10 flex-wrap">
             <div className="flex items-center gap-1.5">
-              {[...Array(5)].map((_, i) => (
-                <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill={i < 5 ? '#F97316' : '#334155'} stroke="none">
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                </svg>
-              ))}
-              <span className="text-sm text-prime-text-muted ml-1">4.6/5</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22C55E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              <span className="text-sm text-prime-text-muted">{t.trust?.noCreditCard || 'No Credit Card Required'}</span>
             </div>
             <div className="w-px h-5 bg-white/10" />
-            <span className="text-sm text-prime-text-muted">Health & Fitness</span>
+            <div className="flex items-center gap-1.5">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              <span className="text-sm text-prime-text-muted">{t.trust?.quickSetup || 'Personalized in Under 2 Minutes'}</span>
+            </div>
             <div className="w-px h-5 bg-white/10 hidden sm:block" />
-            <span className="text-sm text-prime-text-muted hidden sm:block">Free to Start</span>
+            <div className="flex items-center gap-1.5 hidden sm:flex">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4FC3F7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+              <span className="text-sm text-prime-text-muted">{t.trust?.dataPrivacy || 'Your Data Stays Private'}</span>
+            </div>
           </div>
 
           <div className="flex justify-center">

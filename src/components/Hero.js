@@ -38,23 +38,24 @@ export default function Hero({ locale, messages }) {
               {/* Stats row */}
               <div className="flex items-center gap-6 mt-10 pt-8 border-t border-white/5">
                 <div>
-                  <div className="flex items-center gap-1">
-                    <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">4.6</p>
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="#F97316" stroke="none">
-                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                    </svg>
-                  </div>
-                  <p className="text-sm text-prime-text-muted">Play Store Rating</p>
+                  <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">{t.stats?.free || 'Free'}</p>
+                  <p className="text-sm text-prime-text-muted">{t.stats?.freeLabel || 'No Credit Card'}</p>
                 </div>
                 <div className="w-px h-10 bg-white/10" />
                 <div>
-                  <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">Free</p>
-                  <p className="text-sm text-prime-text-muted">To Get Started</p>
+                  <div className="flex items-center gap-1">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">2 {t.stats?.minutes || 'min'}</p>
+                  </div>
+                  <p className="text-sm text-prime-text-muted">{t.stats?.setupLabel || 'To Get Your Plan'}</p>
                 </div>
                 <div className="w-px h-10 bg-white/10" />
                 <div>
                   <p className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">3</p>
-                  <p className="text-sm text-prime-text-muted">Languages</p>
+                  <p className="text-sm text-prime-text-muted">{t.stats?.languagesLabel || 'Languages'}</p>
                 </div>
               </div>
             </div>

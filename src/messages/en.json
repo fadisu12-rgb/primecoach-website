@@ -9,7 +9,14 @@
   },
   "hero": {
     "title": "Your AI-Powered Fitness Coach",
-    "subtitle": "Personalized workouts, smart meal plans, and an AI coach you can chat with to adjust your plan in plain language — like texting a trainer, not fighting menus."
+    "subtitle": "Personalized workouts, smart meal plans, and an AI coach you can chat with to adjust your plan in plain language — like texting a trainer, not fighting menus.",
+    "stats": {
+      "free": "Free",
+      "freeLabel": "No Credit Card",
+      "minutes": "min",
+      "setupLabel": "To Get Your Plan",
+      "languagesLabel": "Languages"
+    }
   },
   "features": {
     "title": "Everything You Need in One App",
@@ -61,6 +68,97 @@
     "title": "Why Users Choose Prime Coach",
     "description": "Stop switching between five apps for workouts, meals, and random AI tips. Prime Coach connects training and nutrition so your week feels coherent — and your coach understands what you actually want to change."
   },
+  "howItWorks": {
+    "title": "Get Started in 3 Steps",
+    "items": [
+      {
+        "title": "Download the App",
+        "description": "Free on Google Play. No credit card, no commitment — just tap and install."
+      },
+      {
+        "title": "Tell Us About You",
+        "description": "Answer a few quick questions about your goals, fitness level, and food preferences."
+      },
+      {
+        "title": "Get Your Plan",
+        "description": "Your personalized workout and meal plan is ready. Adjust anytime by chatting with your AI coach."
+      }
+    ]
+  },
+  "aiChatPreview": {
+    "title": "Talk to Your Coach",
+    "subtitle": "No menus to dig through. Just tell your AI coach what you want to change — in plain language.",
+    "coachName": "Prime Coach AI",
+    "status": "Online",
+    "inputPlaceholder": "Type a message...",
+    "conversation": [
+      { "text": "I don't feel like chicken today, can we swap it?", "isUser": true },
+      { "text": "Done! I swapped your lunch to grilled salmon — same protein, better omega-3s. Want me to adjust dinner too?", "isUser": false },
+      { "text": "No, just skip my cardio tomorrow. I need a rest day.", "isUser": true },
+      { "text": "Got it. Thursday is now a rest day. Your weekly volume is still on track.", "isUser": false }
+    ]
+  },
+  "featureDeepDives": {
+    "title": "See How It Actually Works",
+    "items": [
+      {
+        "title": "AI That Understands You",
+        "description": "Most fitness apps give you a plan and leave you alone. Prime Coach lets you talk to your plan. Swap meals, skip workouts, change goals — just say it.",
+        "bullets": [
+          "Natural language — no forms or dropdowns",
+          "Remembers your preferences over time",
+          "Adjusts nutrition when your training changes"
+        ]
+      },
+      {
+        "title": "Nutrition Without the Headache",
+        "description": "Meal plans that actually fit your life. Set your macros or let the AI figure it out based on your goals. Log meals fast with the food scanner.",
+        "bullets": [
+          "Auto-generated meal plans based on your goals",
+          "Quick food logging with camera scanner",
+          "Macro breakdown for every meal"
+        ]
+      },
+      {
+        "title": "Training That Adapts",
+        "description": "Structured programs for any level. Push/pull/legs, full body, cardio — your week is planned and adjustable.",
+        "bullets": [
+          "Programs for beginners to advanced",
+          "Exercise library with clear instructions",
+          "Adjust your schedule with a message"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is Prime Coach really free?",
+        "answer": "Yes — you can download and use Prime Coach for free. There's a premium option for extra features, but the core experience (AI coaching, meal plans, workouts) is available to everyone."
+      },
+      {
+        "question": "Do I need gym equipment?",
+        "answer": "No. Prime Coach has programs for home and gym. During setup, you tell us what equipment you have access to, and your plan is built around that."
+      },
+      {
+        "question": "How is this different from MyFitnessPal or other apps?",
+        "answer": "Most apps are either a food logger or a workout tracker. Prime Coach combines both and adds an AI coach you can actually talk to. Instead of manually searching menus, you just say what you want to change."
+      },
+      {
+        "question": "Is my data safe?",
+        "answer": "Yes. We don't sell your data to anyone. Your fitness and nutrition data is used only to personalize your experience. You can delete your account and all data at any time."
+      },
+      {
+        "question": "What languages does it support?",
+        "answer": "Prime Coach supports English, Arabic, and Hebrew — both in the app and on this website."
+      },
+      {
+        "question": "Is it available on iOS?",
+        "answer": "Prime Coach is currently available on Android via Google Play. iOS is coming soon — stay tuned!"
+      }
+    ]
+  },
   "screenshots": {
     "title": "See Prime Coach in Action"
   },
@@ -69,7 +167,12 @@
     "subtitle": "Download Prime Coach and get your personalized plan in minutes — then refine it anytime with your AI coach.",
     "android": "Get it on Google Play",
     "ios": "Download on App Store",
-    "comingSoon": "Coming Soon"
+    "comingSoon": "Coming Soon",
+    "trust": {
+      "noCreditCard": "No Credit Card Required",
+      "quickSetup": "Personalized in Under 2 Minutes",
+      "dataPrivacy": "Your Data Stays Private"
+    }
   },
   "contact": {
     "title": "Contact Us",
