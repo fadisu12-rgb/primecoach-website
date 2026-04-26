@@ -23,12 +23,41 @@ export default function Screenshots({ messages }) {
   }, [lightbox]);
 
   const screens = [
-    { src: '/screenshots/screenshot-1.webp', label: 'Workout Plan', alt: 'Prime Coach workout planning screen showing lifting exercises and weekly schedule' },
-    { src: '/screenshots/screenshot-2.webp', label: 'Nutrition Tracking', alt: 'Prime Coach nutrition screen showing meal plan with calorie and macro tracking' },
-    { src: '/screenshots/screenshot-3.webp', label: 'AI Coach', alt: 'Prime Coach AI chat interface for adjusting meals and training plans' },
-    { src: '/screenshots/screenshot-5.webp', label: 'Exercise Library', alt: 'Prime Coach exercise details with instructions and muscle diagram' },
-    { src: '/screenshots/screenshot-7.webp', label: 'Food Scanner', alt: 'Prime Coach food scanner showing scan results with nutritional breakdown' },
-    { src: '/screenshots/screenshot-8.webp', label: 'Nutrition Details', alt: 'Prime Coach nutrition details showing calories, protein, carbs, and fats' },
+    {
+      src: '/screenshots/nutrition_tracking.png',
+      label: 'Nutrition Tracking',
+      alt: 'Prime Coach nutrition screen showing meal plan with calorie and macro tracking',
+      width: 1080,
+      height: 2340,
+    },
+    {
+      src: '/screenshots/AI_coach.png',
+      label: 'AI Coach',
+      alt: 'Prime Coach AI chat interface for adjusting meals and training plans',
+      width: 1080,
+      height: 2340,
+    },
+    {
+      src: '/screenshots/exercise_library.png',
+      label: 'Exercise Library',
+      alt: 'Prime Coach exercise details with instructions and muscle diagram',
+      width: 1080,
+      height: 2340,
+    },
+    {
+      src: '/screenshots/Food_scanner.png',
+      label: 'Food Scanner',
+      alt: 'Prime Coach food scanner showing scan results with nutritional breakdown',
+      width: 1080,
+      height: 2340,
+    },
+    {
+      src: '/screenshots/Nutrition_details.png',
+      label: 'Nutrition Details',
+      alt: 'Prime Coach nutrition details showing calories, protein, carbs, and fats',
+      width: 1080,
+      height: 1993,
+    },
   ];
 
   return (
@@ -72,7 +101,15 @@ export default function Screenshots({ messages }) {
               <button
                 type="button"
                 className="group cursor-pointer text-left border-0 bg-transparent p-0 font-inherit w-full"
-                onClick={() => setLightbox({ src: screen.src, alt: screen.alt, label: screen.label })}
+                onClick={() =>
+                  setLightbox({
+                    src: screen.src,
+                    alt: screen.alt,
+                    label: screen.label,
+                    width: screen.width,
+                    height: screen.height,
+                  })
+                }
               >
                 {/* Phone frame */}
                 <div className="w-[200px] h-[420px] bg-gradient-to-b from-prime-surface to-prime-bg rounded-[2.5rem] border border-white/10 p-2 shadow-xl hover:shadow-2xl hover:shadow-prime-accent/10 transition-all duration-300 hover:-translate-y-2 relative overflow-hidden">
@@ -124,8 +161,8 @@ export default function Screenshots({ messages }) {
             <Image
               src={lightbox.src}
               alt={lightbox.alt}
-              width={936}
-              height={2028}
+              width={lightbox.width}
+              height={lightbox.height}
               className="h-auto max-h-[min(90vh,920px)] w-full rounded-2xl object-contain shadow-2xl"
               sizes="(max-width: 480px) 100vw, 480px"
               priority
