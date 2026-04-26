@@ -3,6 +3,6 @@ export const STORE_LINKS = {
   appStore: '#', // Placeholder — update when iOS app is published
 };
 
-export const CONTACT_EMAIL = 'primecoach69@gmail.com';
+export const CONTACT_EMAIL = 'support@primecoachapp.com';
 export const SITE_URL = 'https://primecoachapp.com';
 export const APP_NAME = 'Prime Coach';
