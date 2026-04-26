@@ -27,6 +27,26 @@ export default function Screenshots({ messages }) {
           </div>
         </AnimatedSection>
 
+        {/* Promo video */}
+        <AnimatedSection>
+          <div className="max-w-3xl mx-auto mb-16">
+            <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-prime-accent/10 aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/lQ2qjkj1-ok"
+                title="Prime Coach App Promo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+                loading="lazy"
+              />
+            </div>
+            {t.videoCaption && (
+              <p className="text-center text-sm text-prime-text-muted mt-4">{t.videoCaption}</p>
+            )}
+          </div>
+        </AnimatedSection>
+
+        {/* Screenshots gallery */}
         <div className="flex gap-5 overflow-x-auto pb-6 snap-x snap-mandatory lg:justify-center lg:flex-wrap scrollbar-hide px-2">
           {screens.map((screen, i) => (
             <AnimatedSection key={i} delay={i * 0.1} className="snap-center shrink-0">
