@@ -1,8 +1,27 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import AnimatedSection from './AnimatedSection';
 
 export default function Screenshots({ messages }) {
   const t = messages.screenshots;
+  const [lightbox, setLightbox] = useState(null);
+
+  useEffect(() => {
+    if (!lightbox) return;
+    const onKey = (e) => {
+      if (e.key === 'Escape') setLightbox(null);
+    };
+    document.addEventListener('keydown', onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [lightbox]);
+
   const screens = [
     { src: '/screenshots/screenshot-1.webp', label: 'Workout Plan', alt: 'Prime Coach workout planning screen showing lifting exercises and weekly schedule' },
     { src: '/screenshots/screenshot-2.webp', label: 'Nutrition Tracking', alt: 'Prime Coach nutrition screen showing meal plan with calorie and macro tracking' },
@@ -50,7 +69,11 @@ export default function Screenshots({ messages }) {
         <div className="flex gap-5 overflow-x-auto pb-6 snap-x snap-mandatory lg:justify-center lg:flex-wrap scrollbar-hide px-2">
           {screens.map((screen, i) => (
             <AnimatedSection key={i} delay={i * 0.1} className="snap-center shrink-0">
-              <div className="group cursor-pointer">
+              <button
+                type="button"
+                className="group cursor-pointer text-left border-0 bg-transparent p-0 font-inherit w-full"
+                onClick={() => setLightbox({ src: screen.src, alt: screen.alt, label: screen.label })}
+              >
                 {/* Phone frame */}
                 <div className="w-[200px] h-[420px] bg-gradient-to-b from-prime-surface to-prime-bg rounded-[2.5rem] border border-white/10 p-2 shadow-xl hover:shadow-2xl hover:shadow-prime-accent/10 transition-all duration-300 hover:-translate-y-2 relative overflow-hidden">
                   {/* Notch */}
@@ -70,11 +93,49 @@ export default function Screenshots({ messages }) {
                 <p className="text-center text-sm text-prime-text-muted mt-3 font-medium font-[family-name:var(--font-display)] group-hover:text-white transition-colors">
                   {screen.label}
                 </p>
-              </div>
+              </button>
             </AnimatedSection>
           ))}
         </div>
       </div>
+
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 sm:p-8"
+          role="dialog"
+          aria-modal="true"
+          aria-label={lightbox.label}
+          onClick={() => setLightbox(null)}
+        >
+          <button
+            type="button"
+            className="absolute top-4 end-4 z-[101] flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-prime-accent"
+            onClick={() => setLightbox(null)}
+            aria-label="Close enlarged screenshot"
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+          <div
+            className="relative max-h-[min(90vh,920px)] w-full max-w-[min(100%,480px)]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Image
+              src={lightbox.src}
+              alt={lightbox.alt}
+              width={936}
+              height={2028}
+              className="h-auto max-h-[min(90vh,920px)] w-full rounded-2xl object-contain shadow-2xl"
+              sizes="(max-width: 480px) 100vw, 480px"
+              priority
+            />
+            <p className="mt-4 text-center text-sm font-medium text-white/90 font-[family-name:var(--font-display)]">
+              {lightbox.label}
+            </p>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
