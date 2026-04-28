@@ -16,6 +16,11 @@ const barlowCondensed = Barlow_Condensed({
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
+  icons: {
+    icon: '/screenshots/image_header.png',
+    shortcut: '/screenshots/image_header.png',
+    apple: '/screenshots/image_header.png',
+  },
   title: {
     default: `${APP_NAME} - AI Fitness Coaching App`,
     template: `%s | ${APP_NAME}`,

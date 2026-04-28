@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import AnimatedSection from './AnimatedSection';
 import SmartDownloadButton from './SmartDownloadButton';
 
@@ -65,36 +66,15 @@ export default function Hero({ locale, messages }) {
           <AnimatedSection delay={0.2}>
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
-                {/* Phone frame */}
-                <div className="w-[280px] h-[560px] bg-gradient-to-b from-prime-surface to-prime-bg rounded-[3rem] border border-white/10 p-3 shadow-2xl shadow-prime-accent/10">
-                  {/* Screen */}
-                  <div className="w-full h-full bg-prime-bg rounded-[2.5rem] flex flex-col items-center justify-center overflow-hidden relative">
-                    {/* Notch */}
-                    <div className="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-6 bg-black rounded-full" />
-                    {/* Screen content mock */}
-                    <div className="text-center p-6">
-                      <div className="w-16 h-16 bg-gradient-to-br from-prime-accent to-prime-green rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-prime-accent/20">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-                        </svg>
-                      </div>
-                      <p className="text-white text-sm font-semibold mb-1">Prime Coach</p>
-                      <p className="text-prime-text-subtle text-xs">Your AI Fitness Partner</p>
-                      {/* Mock UI elements */}
-                      <div className="mt-6 space-y-3 w-full">
-                        <div className="h-3 bg-prime-surface rounded-full w-full" />
-                        <div className="h-3 bg-prime-surface rounded-full w-3/4 mx-auto" />
-                        <div className="h-10 bg-gradient-to-r from-prime-accent to-prime-accent-dark rounded-xl w-full mt-4" />
-                        <div className="grid grid-cols-3 gap-2 mt-4">
-                          <div className="h-16 bg-prime-surface rounded-lg" />
-                          <div className="h-16 bg-prime-surface rounded-lg" />
-                          <div className="h-16 bg-prime-surface rounded-lg" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* Glow behind phone */}
+                <Image
+                  src="/screenshots/image_header.png"
+                  alt="Prime Coach App"
+                  width={280}
+                  height={560}
+                  className="rounded-[2rem] shadow-2xl shadow-prime-accent/10"
+                  priority
+                />
+                {/* Glow behind image */}
                 <div className="absolute -inset-8 bg-gradient-to-b from-prime-accent/15 via-prime-accent/5 to-prime-green/10 rounded-[4rem] blur-3xl -z-10" />
               </div>
             </div>
